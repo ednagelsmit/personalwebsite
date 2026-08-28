@@ -32,7 +32,7 @@ if (contactForm) {
         // Simple validation
         if (name && email && subject && message) {
             // Create mailto link
-            const mailtoLink = `mailto:edna.gelsmit@example.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`From: ${name} (${email})\n\n${message}`)}`;
+            const mailtoLink = `mailto:ednagelsmit@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`From: ${name} (${email})\n\n${message}`)}`;
             
             // Open default email client
             window.location.href = mailtoLink;
