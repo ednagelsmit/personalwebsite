@@ -88,7 +88,9 @@ html {
 
 /* Hero Section */
 .hero {
-    background-image: url('assets/images/hero/your-hero-image.jpg'); 
+    /* Use the image uploaded/linked in the README as the hero background. */
+    background: linear-gradient(rgba(44,62,80,0.35), rgba(44,62,80,0.35)),
+                url('https://github.com/user-attachments/assets/a6b3be4e-7409-436b-84a2-cf516437bca5') center/cover no-repeat;
     color: white;
     padding: 100px 0;
     text-align: center;
@@ -96,6 +98,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .hero-content h2 {
