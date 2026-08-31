@@ -431,23 +431,23 @@ html {
 }
 
 /* Academic Activities Section */
-.academic activities {
+.publications {
     background: white;
 }
 
-.academic activities-content {
+.publications-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
 }
 
-.academic activities-list h3,
+.publications-list h3,
     color: var(--primary-color);
     font-size: 1.5rem;
     margin-bottom: 30px;
 }
 
-.academic activities-item {
+.publication-item {
     background: var(--light-bg);
     padding: 20px;
     margin-bottom: 20px;
@@ -455,19 +455,19 @@ html {
     border-left: 4px solid var(--accent-color);
 }
 
-.academic activities-item h4 {
+.publication-item h4 {
     color: var(--primary-color);
     margin-bottom: 8px;
 }
 
-.academic activities-meta {
+.publication-meta {
     color: var(--accent-color);
     font-size: 0.9rem;
     font-style: italic;
     margin-bottom: 10px;
 }
 
-.academic activities-item p {
+.publication-item p {
     color: var(--text-light);
     line-height: 1.6;
 }
