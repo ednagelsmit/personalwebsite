@@ -472,6 +472,12 @@ html {
     line-height: 1.6;
 }
 
+.cv-section p {
+    color: var(--text-light);
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
 /* Contact Section */
 .contact {
     background: var(--primary-color);
